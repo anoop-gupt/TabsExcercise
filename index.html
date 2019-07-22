@@ -23,10 +23,55 @@
   </head>
 
   <body>
-
-    <!-- Main Container Section
-    ================================================== -->
-    <div>Tabs</div>
+  
+    <div class="tabs">
+      <ul id="tab-radio-buttons">
+          <li><input type="radio" data-href="tab-1" />Day</li>
+          <li><input type="radio" data-href="tab-2" />Date</li>
+          <li><input type="radio" data-href="tab-3" />Text</li>
+      </ul>
+      <div id="tabs1-day">
+        <ul>
+          <li>
+            <input type="checkbox" id="Monday" name="Monday">
+            <label for="Monday">Monday</label>
+          </li>
+          <li>
+            <input type="checkbox" id="hTuesday name="Tuesday">
+            <label for="Tuesday">Tuesday</label>
+          <li>
+          <li>
+            <input type="checkbox" id="horWednesdayame="Wednesday">
+            <label for="Wednesday">Wednesday</label>
+          <li>
+          <li>
+            <input type="checkbox" id="hoThursdayname="Thursday">
+            <label for="Thursday">Thursday</label>
+          <li>
+          <li>
+            <input type="checkbox" id="Friday" name="Friday">
+            <label for="Friday">Friday</label>
+          <li>
+          <li>
+            <input type="checkbox" id="hoSaturdayname="Saturday">
+            <label for="Saturday">Saturday</label>
+          <li>
+          <li>
+            <input type="checkbox" id="Sunday" name="Sunday">
+            <label for="Sunday">Sunday</label>
+          <li>
+        </ul>
+      </div>
+      <div id="tabs2-date">
+        <Select id='day'></Select>
+        <Select id='month'></Select>
+        <Select id='year'></Select>
+        <!-- content -->
+      </div>
+      <div id="tabs3-text">
+        <input type="text" id="text" name="text">
+      </div>
+    </div>
 
     
     <!-- Java Script
